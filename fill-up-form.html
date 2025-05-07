@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flower Order Form | Blossom Flower Shop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap 3 CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="form-style.css">
+</head>
+<body>
+
+
+
+  <div class="container">
+  <div class="order-form">
+    <h2 class="mb-4">Flower Order Form</h2>
+
+    <form action="mailto:blossomflowershop24@gmail.com" method="POST" enctype="text/plain">
+      
+
+
+        <div class="form-group">
+          <label for="flower">Flower Name</label>
+          <select name="Flower Name" class="form-control" id="flower" required>
+            <option value="">Select Flower</option>
+            <option>Rose</option>
+            <option>Sunflower</option>
+            <option>Tulip</option>
+            <option>Orchid</option>
+            <option>Lavender</option>
+            <option>Peony</option>
+            <option>Carnation</option>
+            <option>Daisy</option>
+            <option>Dahlia</option>
+            <option>Iris</option>
+            <option>Chrysanthemum</option>
+            <option>Hydrangea</option>
+            <option>Hyacinth</option>
+            <option>Gerbera Daisy</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="ribbon">Ribbon Color</label>
+          <select name="Ribbon Color" class="form-control" id="ribbon" required>
+            <option value="">Select</option>
+            <option>Red</option>
+            <option>Blue</option>
+            <option>Gold</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="wrapper">Wrapper Color</label>
+          <select name="Wrapper Color" class="form-control" id="wrapper" required>
+            <option value="">Select</option>
+            <option>White</option>
+            <option>Pink</option>
+            <option>Green</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+  <label for="flowerColor">Flower Color (see available)</label>
+  <select name="Flower Color" class="form-control" id="flowerColor" required>
+    <option value="">Select</option>
+    <optgroup label="Rose">
+      <option>Red</option>
+      <option>Pink</option>
+      <option>White</option>
+    </optgroup>
+    <optgroup label="Sunflower">
+      <option>Yellow</option>
+    </optgroup>
+    <optgroup label="Tulip">
+      <option>Pink</option>
+      <option>White</option>
+      <option>Purple</option>
+    </optgroup>
+    <optgroup label="Orchid">
+      <option>Purple</option>
+      <option>White</option>
+    </optgroup>
+    <optgroup label="Lavender">
+      <option>Purple</option>
+      <option>Blue</option>
+    </optgroup>
+    <optgroup label="Peony">
+      <option>Purple</option>
+      <option>White</option>
+      <option>Pink</option>
+    </optgroup>
+    <optgroup label="Carnation">
+      <option>Purple</option>
+      <option>White</option>
+      <option>Yellow</option>
+    </optgroup>
+    <optgroup label="Daisy">
+      <option>Pink</option>
+      <option>Red</option>
+      <option>Light Green</option>
+    </optgroup>
+    <optgroup label="Dahlia">
+      <option>Red</option>
+      <option>Yellow</option>
+      <option>Pink</option>
+    </optgroup>
+    <optgroup label="Iris">
+      <option>Purple</option>
+    </optgroup>
+    <optgroup label="Chrysanthemum">
+      <option>Red</option>
+      <option>White</option>
+      <option>Pink</option>
+    </optgroup>
+    <optgroup label="Hydrangea">
+      <option>blue</option>
+      <option>Purple</option>
+      <option>Pink</option>
+    </optgroup>
+    <optgroup label="Hyacinth">
+      <option>Purple</option>
+    </optgroup>
+    <optgroup label="Gerbera Daisy">
+      <option>Red</option>
+      <option>Gold</option>
+      <option>Pink</option>
+    </optgroup>
+  </select>
+</div>
+
+        <!-- Contact Details -->
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" name="Name" class="form-control" id="name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" name="Email" class="form-control" id="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="Phone" class="form-control" id="phone" required>
+          </div>
+
+          <div class="form-group">
+            <label for="address">Delivery Address</label>
+            <textarea name="Address" class="form-control" id="address" rows="3" required></textarea>
+          </div>
+        </div>
+
+        <div class="form-group text-center">
+  <button type="submit" class="btn btn-custom">Send Order</button>
+  <a href="order.html" class="btn btn-back">Back to Order</a>
+</div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

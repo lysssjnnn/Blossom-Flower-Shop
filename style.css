@@ -1,0 +1,281 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+/* order now */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff8f8;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 15px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.header {
+  text-align: center;
+  background-color: #f8bbd0;
+  padding: 40px 20px;
+  color: #880e4f;
+}
+
+.flower-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+  gap: 25px;
+}
+
+.flower-card {
+  background-color: white;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.flower-card:hover {
+  transform: scale(1.03);
+}
+
+.flower-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.flower-info {
+  padding: 15px;
+}
+
+.flower-info h5 {
+  margin: 0;
+  color: #c2185b;
+  font-size: 20px;
+}
+
+.flower-info p {
+  margin: 4px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+.buy-btn {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.buy-btn:hover {
+  background-color: #c2185b;
+}
+
+@media screen and (max-width: 768px) {
+  .flower-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flower-card {
+    width: 90%;
+  }
+}
+
+
+
+/* Header */
+.header {
+    background: linear-gradient(90deg, rgba(255, 153, 204, 1) 0%, rgba(255, 102, 204, 1) 100%);
+    padding: 50px 0;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.header p {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+
+/* Gallery Section */
+#gallery {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+#gallery h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#gallery p {
+    font-size: 1.2rem;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+/* Gallery Image Styling */
+#gallery .img-fluid {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+/* Hover effect on gallery images */
+#gallery .img-fluid:hover {
+    transform: scale(1.05);
+}
+
+/* Grid Layout - Responsive for Smaller Screens */
+@media (max-width: 768px) {
+    #gallery .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #gallery .col-md-4 {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+/* About Us & Contact Section Styles */
+#about-us,
+#contact {
+  padding: 60px 20px;
+}
+
+#about-us h2,
+#contact h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#about-us p,
+#contact p {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+#contact a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Optional: Add subtle background colors */
+#about-us {
+  background-color: #f9f9f9;
+}
+
+#contact {
+  background-color: #fff;
+}
+
+/* Log In & Sign Up Form Styles */
+#login,
+#signup {
+  padding: 60px 20px;
+}
+
+#login h2,
+#signup h2 {
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+form .form-group label {
+  font-weight: 500;
+}
+
+form .btn-block {
+  font-size: 1rem;
+  padding: 10px;
+}
+
+#auth-section h2 {
+  font-weight: 700;
+}
+
+#auth-section .card {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+#auth-section .form-group label {
+  font-weight: 500;
+}
+
+#auth-section .btn {
+  font-size: 1rem;
+  padding: 10px 0;
+}
+
+footer a {
+  color: white;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #ffc107;
+}
+
+/* Button Styling */
+.btn-danger {
+  background-color: #e83e8c;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #d63384;
+}
+
+
